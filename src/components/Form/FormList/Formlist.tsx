@@ -188,7 +188,7 @@ const FormList: React.FC = () => {
                                                         variant="text"
                                                         color="blue"
                                                         onClick={() => {
-                                                            link = `http://localhost:3000/viewform/${encodeURIComponent(
+                                                            link = `https://meek-entremet-a8f1b2.netlify.app/viewform/${encodeURIComponent(
                                                                 id
                                                             )}`
                                                             console.log(link)
